@@ -25,7 +25,7 @@ body {
 
 main {
   background: linear-gradient(180deg,var(--color-main) 60%, var(--color-foreground) 40%);
-  margin-top: 2em;
+  margin-top: 5em;
   padding: 2em;
 
 }
@@ -70,7 +70,7 @@ ul li {
   color: white;
   font-size: 1.5em;
   position: absolute;
-  top: -12px;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -193,5 +193,9 @@ ul li {
   .figure-image,
   .figure-data {
     width: 50%;
+  }
+
+  .page-title {
+    top: -10px;
   }
 }
